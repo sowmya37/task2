@@ -54,7 +54,7 @@ document.addEventListener(
           validator(validateTextField(name), "nameValidation") &&
           validator(validateNumberField(age), "ageValidation") &&
           validator(validateNumberField(sal), "salValidation") &&
-          validator(validateEmail(email), "emailValidation") &&
+       
           validator(validateTextField(remarks), "remarksValidation")
         )
           addData({ name, age, sal, email, remarks });
